@@ -2,7 +2,7 @@
 
 <h3>🔗 Link da página</h2>
 <p>Abaixo temos o link da página para visualização e testes:</p>
-👉 <a href="https://github-user-api-mu.vercel.app/" target="_blank">Blogr ⚔</a>
+👉 <a href="https://github-user-api-mu.vercel.app/" target="_blank">github API ⚔</a>
 
 #
 
