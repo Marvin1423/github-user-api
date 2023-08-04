@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
-* {
-    margin: 0;
-    padding: 0;
-    font-weight: 300;
+@keyframes sideToCenter {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
 }
 
 img {
@@ -69,6 +70,7 @@ main {
     padding: 10px;
     border-radius: 7px;
     border: 1px solid grey;
+    transition: 0.3s;
 }
 
 .container header #btn-search {
@@ -79,10 +81,11 @@ main {
     border-radius: 7px;
     cursor: pointer;
     border: 1px solid grey;
+    transition: 0.3s;
 }
 
 .container header #btn-search:hover {
-    background-color: hotpink;
+    background-color: #7942ef;
     color: #ffffff;
     border-color: #ffffff;
 }
@@ -108,13 +111,23 @@ main {
 .container .profile-data .info img {
     width: 50%;
     border-radius: 50%;
-    border: 10px solid hotpink;
+    border: 10px solid #7942ef;
+    animation: sideToCenter 1.7s;
 }
 
 .container .profile-data .info h1 {
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: 700;
+    animation: sideToCenter 1s;
+}
+
+.container .profile-data .info .data .data-follows h4:nth-child(1){
+    animation: sideToCenter 1.3s;
+}
+
+.container .profile-data .info .data .data-follows h4:nth-child(2){
+    animation: sideToCenter 1.6s;
 }
 
 .container .profile-data .info p {
@@ -122,6 +135,7 @@ main {
     font-weight: 400;
     line-height: 23px;
     margin-top: 5px;
+    animation: sideToCenter 1.8s;
 }
 
 /* REPOSITORIES */
@@ -144,10 +158,12 @@ main {
     display: block;
     border-radius: 7px;
     transition: 0.3s ease-in-out;
+    max-width: 460px;
+    flex-wrap: wrap;
 }
 
 .container .profile-data .repositories ul li a:hover {
-    background-color: hotpink;
+    background-color: #7942ef;
     color: #fff
 }
 
@@ -176,6 +192,10 @@ main {
 
 .events.section{
     padding: 30px 0;
+}
+
+.events ul li{
+    margin: 5px 0;
 }
 
 .events span{
