@@ -16,7 +16,7 @@
         <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
  <br>
 
-<h3>Ulização de tags semânticas</h3>
+<h3>Utilização de tags semânticas</h3>
 <h3>Site responsivo para diversos dispositivos</h3>
 <h3>Utilização da API do github para mostrar dados de usuários</h3>
     </ul>
